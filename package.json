@@ -1,0 +1,25 @@
+{
+  "name": "jestproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watchAll",
+    "test:update": "jest -u"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "@types/jest": "^23.3.9",
+    "babel-core": "^7.0.0-bridge",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.9.0",
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando con Snapshots! Siempre fallará el snapshot 1`] = `
+Object {
+  "createAt": Any<Date>,
+  "id": Any<Number>,
+  "name": "Hans",
+}
+`;
+
+exports[`Probando con Snapshots! Snapshot 1`] = `
+Object {
+  "gender": "Male",
+  "id": "1",
+  "name": "Rick Sanchez",
+  "species": "Human",
+  "status": "Alive",
+}
+`;
+
+exports[`Probando con Snapshots! Tenemos una excepsion dentro del codigo 1`] = `
+Object {
+  "createAt": Any<Date>,
+  "id": Any<Number>,
+  "name": "Hans Felipe",
+}
+`;
